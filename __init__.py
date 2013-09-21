@@ -12,7 +12,7 @@ from pygame.locals import *
 
 from OpenGL.GL import *
 from OpenGL.GLU import *
-from OpenGL.GLU import gluLookAt
+#from OpenGL.GLU import gluLookAt #THIS LINE DOESN'T MAKE ANY SENSE WITH THE ABOVE LINE.
 
 from os.path import sep
 from sys import exit
