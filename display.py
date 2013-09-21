@@ -1,7 +1,7 @@
 #--*-- coding:UTF-8 --*--
 
 from __init__ import * #LOAD DEPENDENCIES FROM FILE __init__.py
-from __OpenInit__ import * #LOAD OpenGLInitialize() FROM FILE __OpenInit__.py
+from __OpenGLInit__ import * #LOAD OpenGLInitialize() FROM FILE __OpenInit__.py
 
 class Display(object):
 	"""Display class to openGL window"""
