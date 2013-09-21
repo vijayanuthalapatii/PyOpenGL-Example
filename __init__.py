@@ -18,3 +18,4 @@ from os.path import sep
 from sys import exit
 
 import math
+from math import *
