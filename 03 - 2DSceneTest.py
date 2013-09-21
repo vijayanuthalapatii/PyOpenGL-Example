@@ -9,7 +9,7 @@ SCREEN_SIZE = [1024, 768]
 
 class Main():
 	def __init__(self):
-		self.textura = Texture(os.path.join("images","minidroid.png")) #Funciona com o nerd - mike.png
+		self.textura = Texture(os.path.join("images","minidroid.png")) #It also Work with the nerd - mike.png
 		self.x , self.y = 0.0 , 0.0
 
 	# Resize the image to draw on the screen
