@@ -20,6 +20,7 @@
 			Os:
 				Windows 8 x64
 			Editor:
+				Sublime - TextEditor
 				NetBeans + python plugin
 			Dependências:
 				jdk-7u40-windows-x64

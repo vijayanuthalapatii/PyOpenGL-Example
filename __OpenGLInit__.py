@@ -3,7 +3,7 @@
 from __init__ import * #LOAD DEPENDENCIES FROM FILE __init__.py
 #from OpenGL.GLU import gluLookAt #THIS LINE DOESN'T MAKE ANY SENSE WITH THE ABOVE LINE ALREADY IMPORTED from OpenGL.GLU import *.
 
-def OpenInitilize():
+def OpenInitialize():
 	glEnable(GL_BLEND)
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
 	glTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE)
