@@ -22,7 +22,8 @@ class Display(object):
 		if value:
 			self._screenFlags = OPENGL|DOUBLEBUF|FULLSCREEN; self.fullscreen = True
 		else:self._screenFlags = OPENGL|DOUBLEBUF|FULLSCREEN; self.fullscreen = False
-		pygame.display.set_mode(self.screen_size, self._screenFlags)
+		self.show_screen= pygame.display.set_mode(self.screen_size, self._screenFlags)
+		return self.show_screen
 
 	def set_flip_option(self):
 		return pygame.display.flip()
