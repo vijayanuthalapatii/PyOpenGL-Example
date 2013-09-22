@@ -5,17 +5,17 @@ from __init__ import * #LOAD DEPENDENCIES FROM FILE __init__.py
 #On this file we can create our viewport to Genereate OpenGl view
 
 def init2d(rect, prox, far):
+	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
+	glLoadIdentity()
+	glDisable(GL_LIGHTING)
 	glEnable(GL_TEXTURE_2D)
 	glViewport(*rect)
 	glMatrixMode(GL_PROJECTION)
-	glLoadIdentity()
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
 	glOrtho(rect[0],rect[2],rect[1],rect[3],prox,far)
 	glMatrixMode(GL_MODELVIEW)
 	glLoadIdentity()
-	glDisable(GL_LIGHTING)
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
-	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
-
+	
 def init3d(rect, angle, prox, far):
 	glViewport(*rect)
 	glMatrixMode(GL_PROJECTION)

@@ -8,8 +8,12 @@ import OpenGL.GLUT
 
 import pygame
 import sys, os
-from pygame.locals import *
 
+import random
+import time
+import numpy # for black textures
+
+from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 #from OpenGL.GLU import gluLookAt #THIS LINE DOESN'T MAKE ANY SENSE WITH THE ABOVE LINE.
@@ -19,3 +23,6 @@ from sys import exit
 
 import math
 from math import *
+
+from ctypes import *
+
