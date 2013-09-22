@@ -4,9 +4,6 @@ from __init__ import * #LOAD DEPENDENCIES FROM FILE __init__.py
 from texture import Texture
 from math import * # trigonometria
 
-SCREEN_SIZE = [1024, 768]
-
-
 def init():
   glClearColor(0.0, 0.0, 0.0, 0.0);
 
