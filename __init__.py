@@ -16,6 +16,7 @@ import numpy # for black textures
 from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
+from OpenGL.GLUT import *
 #from OpenGL.GLU import gluLookAt #THIS LINE DOESN'T MAKE ANY SENSE WITH THE ABOVE LINE.
 
 from os.path import sep
