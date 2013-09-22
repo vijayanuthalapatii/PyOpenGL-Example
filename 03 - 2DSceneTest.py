@@ -25,6 +25,7 @@ class Main():
 
 	#Draw minidroid on the screen	
 	def draw(self):
+		#Without these lines below the image will not buffer and cache to memory
 		glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
 		glLoadIdentity()
 		glDisable(GL_LIGHTING)
