@@ -1,7 +1,7 @@
 #--*-- coding:UTF-8 --*--
 
 from __init__ import * #LOAD DEPENDENCIES FROM FILE __init__.py
-from texture import Texture
+from texture import *
 from math import * # trigonometria
 
 def init():
