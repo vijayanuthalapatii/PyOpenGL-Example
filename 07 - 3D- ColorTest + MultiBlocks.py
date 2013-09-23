@@ -201,16 +201,16 @@ class Perspective:
           glColor3f(1,1,1)
           glLoadIdentity()
 
-          for i in range(-1,3):
-            for j in range(-1,3):
-              for k in range(-1,5):
+          for i in range(-1,5):
+            for j in range(-1,8):
+              for k in range(-1,8):
                 glPushMatrix()
                 glTranslate(i*5,j*8,k*5)
-                # DNA(self.t)
                 glScale(1,1,1)
                 glCallList(1)
                 glPopMatrix()
-          time.sleep(0.000012);
+          time.sleep(0.0001);
+          self.frames_per_second.tick(90)
           self.display.get_events()
           self.display.set_flip_option()
 

@@ -26,4 +26,3 @@ import math
 from math import *
 
 from ctypes import *
-

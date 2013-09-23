@@ -95,6 +95,6 @@ if __name__ == '__main__':
 	while True:
 		t=t+1
 		DNA()
-		time.sleep(0.009);
+		time.sleep(0.001);
 		display.get_events()
 		display.set_flip_option()
