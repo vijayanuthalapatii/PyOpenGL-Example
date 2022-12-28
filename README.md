@@ -2,11 +2,11 @@
 
 	Exemplos de Mini App's utilizando Python + OpenGL
 
-	Exemplos Simulam desde OpenGL 2D até um minimo de OpenGL3D
+	2D até um minimo de OpenGL3D
 
 #######################################################################
 
-	Matéria:
+	vijaya harshitha anusha 
    		'Tópicos Avançados 2 - 8º Periodo'
 
 	Grupo: 
